@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue js</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+    
+    <div id="appidta">
+		<p v-for="cargola in cars">
+			{{ cargola }}
+		</p>
+		
+		<p v-for="(cargola, index) in cars">
+			{{ index+1 }} : {{ cargola }}
+		</p>
+		
+		<h2 v-for="(valuegola, key) in user">
+			{{ key }} : {{ valuegola }}
+		</h2>
+		
+		<h4 v-for="n in 10">
+			{{ n }}
+		</h4>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue js</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+    
+    <div id="appidta">
+		<h1 v-if="userAge >= allowedAge">
+			You are good to go
+		</h1>
+		<mark v-else-if="user === 'Osman'">
+			You are good
+		</mark>
+		<h2 v-else>
+			You are not good to go
+		</h2>
+		<h1>{{ changeUser() }}</h1>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
