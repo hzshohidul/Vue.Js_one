@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/72774636/error-cannot-find-module-c-vite-bin-vite-js-when-installing-vue-js-to-larave
